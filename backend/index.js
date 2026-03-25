@@ -30,10 +30,12 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
-    credentials: true
+  origin: [
+    "https://e-leave-fsd.vercel.app",
+    "http://localhost:5173"
+  ],
+  credentials: true
 }));
-
 // Serve uploaded files statically
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
