@@ -77,6 +77,7 @@ Balance & Reports (/api/balance, /api/reports)
 5.	Notifications Collection: Polled mapping of userId, title, message, type (e.g., leave_approved), link, and isRead boolean flag.
 🔗 Live Deployment Links
 Currently, the project is configured for your local development environment with the following local endpoints:
-•	Frontend App: https://fsd-leave-management-frontend.vercel.app/
-•	Backend API: https://fsd-leave-management.onrender.com/
+•	Frontend App: https://e-leave-fsd.vercel.app/
+•	Backend API: https://eleave-fsd.onrender.com
+
 
